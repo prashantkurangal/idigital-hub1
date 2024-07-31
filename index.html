@@ -27,7 +27,35 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>.email-link {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
+            display: block;
+            max-width: 100%;
+        }
+        
+        .d-flex {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        @media (max-width: 767px) {
+            .d-flex {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .ms-3 {
+                margin-left: 0;
+            }
+            .email-link {
+                max-width: 100%;
+            }
+        }
+        </style>
     </head>
+    
 
     <body>
         <!-- Spinner Start -->
@@ -46,14 +74,13 @@
                 </div>
                 <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
                 <div class="top-link">
-                    <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
-                    <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
-                    <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
-                    <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    <a href="https://www.facebook.com/people/Idigital-Hub-Pvt-Ltd/100083272489828/?mibextid=LQQJ4d" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                    <a href="https://www.linkedin.com/company/idigital-hub-pvt-ltd/about/?viewAsMember=true" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    <a href="https://x.com/Idigitalhub19" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-twitter text-primary"></i></a>
                 </div>
             </div>
         </div>
-    </div>
+    </div>      
     <!-- Topbar End -->
 
 
@@ -142,8 +169,8 @@
                     <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                         <h5 class="text-primary">About Us</h5>
                         <h1 class="mb-4">About IDigital Hub</h1>
-                        <p style="text-shadow:2px;">Established in 2019, IDigital Hub set out with a bold vision to transform the realm of email marketing. With a dedicated team of digital marketing enthusiasts, we saw the immense potential of emails as a dynamic marketing tool. Over the years, our journey has been defined by innovative strategies, pioneering solutions, and an unwavering commitment to excellence. Today, we are recognized as a premier email marketing service provider, trusted by businesses globally.</p>
-                        <p class="mb-4">Our forte lies in designing bespoke email marketing campaigns that connect with your audience on a personal level. We excel in creating customized, engaging, and outcome-driven email content that not only reaches your customers' inboxes but also resonates with them.</p>
+                        <p style="text-shadow:2px;">Welcome to IDigital Hub , a dynamic digital marketing agency established in 2019 with a passion for helping businesses grow and succeed in the digital age. Our mission is to deliver innovative and effective digital marketing solutions that drive measurable results.</p>
+                        <p class="mb-4">At IDigital Hub , we are committed to excellence in everything we do. We understand that the digital landscape is constantly evolving, and staying ahead requires creativity, adaptability, and a deep understanding of the latest trends and technologies. Our team of dedicated professionals is driven by a shared goal: to empower our clients with the tools and strategies they need to thrive in today’s competitive market.</p>
                         <a href="about.html" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
                     </div>
                 </div>
@@ -325,17 +352,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6 wow fadeIn" data-wow-delay=".7s">
+                        <div class="col-xl-6 col-lg-6 wow fadeIn" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
                             <div class="d-flex bg-light p-3 rounded">
-                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 30px; height: 34px;">
                                     <i class="fa fa-envelope text-white"></i>
                                 </div>
                                 <div class="ms-3">
                                     <h4 class="text-primary">Email Us</h4>
-                                    <a class="h5" href="mailto:info@ignitedigitalhub.com" target="_blank">info@ignitedigitalhub.com</a>
+                                    <a class="h5 email-link" href="mailto:info@ignitedigitalhub.com" target="_blank">info@ignitedigitalhub.com</a>
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                     <div class="row g-5">
                         <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
